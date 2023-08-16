@@ -5,14 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
 
     <title>Tic Tac Toe</title>
 </head>
 
-<body>
+<body onload="init()">
 
+    <h1>Tic Tac Toe</h1>
+
+    <div id="content"></div>
+
+    <div class="restart-button">
+        <button onclick="restartGame()">Spiel Neustarten</button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
